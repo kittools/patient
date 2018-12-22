@@ -7,5 +7,5 @@ type LoginController struct {
 }
 
 func (c *LoginController) Get() {
-	c.TplName = "login.tpl"
+	c.TplName = "login/login.tpl"
 }

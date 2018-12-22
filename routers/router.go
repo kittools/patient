@@ -1,11 +1,11 @@
 package routers
 
 import (
-	"github.com/kittools/patient/controllers"
 	"github.com/astaxie/beego"
+	"github.com/kittools/patient/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
-    beego.Router("/login",&controllers.LoginController{})
+	beego.Router("/", &controllers.MainController{})
+	beego.Router("/login", &controllers.LoginController{})
 }
