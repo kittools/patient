@@ -1,0 +1,53 @@
+.header .personal {
+	overflow: visible !important;
+}
+
+.header .personal_box {
+	overflow: visible !important;
+}
+
+.personal .personal_box .data a {
+	display: block;
+}
+
+.personal .personal_box .data {
+	position: relative;
+}
+
+.personal .personal_box .data:hover .box_grzl {
+	display: block;
+
+}
+
+.personal .personal_box .data .box_grzl {
+	display: none;
+	position: absolute;
+	left: -50%;
+	width: 200%;
+	height: auto;
+	padding-top: 28px;
+}
+
+.personal .personal_box .data .box_grzl ul {
+	list-style: none;
+	padding: 0rem;
+	margin: 0rem;
+	border: 1px solid #CCCCCC;
+	background-color: #ffffff;
+}
+
+.personal .personal_box .data .box_grzl ul li {
+	line-height: 40px;
+	list-style: none;
+	color: #666666;
+}
+
+.personal .personal_box .data .box_grzl ul li a {
+	display: block;
+	color: initial;
+}
+
+.personal .personal_box .data .box_grzl ul li a:hover {
+	color: #FFFFFF;
+	background-color: #1d64e3;
+}

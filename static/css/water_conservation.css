@@ -1,0 +1,541 @@
+/*@font-face {
+    font-family: 华文中宋;
+    src:url('hwzs.ttf');
+}
+@font-face {
+    font-family: 仿宋;
+    src:url('fs.TTF');
+}*/
+
+.border-box{
+	padding: 0px 15px;
+    width: 844px;
+	height: 1153px;
+	padding-top: 30px;
+	margin: 0 auto;
+	border: 1px solid #D5E8FF;
+    box-sizing: border-box;
+    
+}
+
+.a4_div_box{
+	width: 794px;
+	height: 1123px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.a4_div_box input{
+	font-family: "仿宋";
+	font-size: 18px;
+}
+.a4_div_box textarea{
+	font-family: "仿宋";
+	font-size: 18px;
+}
+.wire{
+	border:1px solid #00BFFF;
+}
+.a4_div_box .xz_table{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: "仿宋";
+	/*font-family: fs;*/
+	border: 2px solid #00BFFF;
+	text-align: center;
+}
+.a4_div_box .xz_table tr td{
+	border-top: 2px solid #00BFFF;
+	border-right: 2px solid #00BFFF;
+	padding: 0px;
+	text-align: center;
+	vertical-align: top;
+	
+}
+.a4_div_box .xz_table tr:first-child td{
+	border-top: 0px solid #00BFFF;
+}
+.a4_div_box .xz_table tr td:last-child{
+	border-right: 0px solid #CCCCCC;
+}
+.xz_table tr td.b_r_none{
+	border-right: none;
+}
+.a4_div_box .xz_table tr th{
+	border-top: 1px solid #00BFFF
+	border-right: 1px solid #00BFFF;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+.a4_div_box .xz_table tr:first-child th{
+	border-top: 0px solid #00BFFF;
+}
+.a4_div_box .xz_table tr th:last-child{
+	border-right: 0px solid #00BFFF;
+}
+
+.a4_div_box .ft-30{
+	text-align: center;font-size:30px;color:deepskyblue;
+	font-family: "华文中宋";
+	/*font-family: hwzs;*/
+}
+.office{
+	letter-spacing: 13px;text-align: center;
+}
+.offic{
+	letter-spacing: 20px; text-align: center;font-size: 30px;
+}
+.a4_div_box .ft-30 .sx{
+	letter-spacing: 25px;
+	text-align: left;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.a4_div_box .ft-30 .sign{
+	text-align: right;
+    width: 70%;
+    margin: 0 auto;
+    letter-spacing: 25px;
+}
+.a4_div_box .xz_table .height-04{
+	height:4%;
+	padding: 2px;
+}
+.a4_div_box .xz_table .height-04 .height-100{
+	height:95%;position: relative;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-04 .height-100 .issning{
+	text-align: left;font-size: 20px;
+}
+ .width-98{
+	width:98%;height:100%;display:block;border:0;overflow:hidden;resize: none;outline: none;
+	margin: 0 auto;
+}
+ .a4_div_box .xz_table .height-04 .height-100 .width-96{
+	width:98%;height:96%;display:block;border:0;overflow:hidden;resize: none;outline: none;
+}
+.a4_div_box .xz_table .height-04 .year{
+	width:98%;position: static;text-align: right;bottom:0;
+}
+.a4_div_box .xz_table .height-04 .yesy{
+	width:98%;position: absolute;text-align: right;bottom:0;
+}
+.a4_div_box .xz_table .height-04  .wt-10{
+	width:10%;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .watert{
+	font-size：18px;float:left;color:deepskyblue;
+	text-align: left;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .wt-watert{
+	margin-left:5px;width:90%;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .wt-watert span{
+	font-size: 20px;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .wt-watert .take-right{
+	font-size: 20px;
+	margin-left: 50px;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .wt-watert .take-right .howl{
+	width:60px;border:0;text-align: center;color:#00BFFF;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .watert .choose{
+	width:80px;color:deepskyblue;border-color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08{
+	height:8%;
+}
+.a4_div_box .xz_table .height-06{
+	height:6%;
+}
+.a4_div_box .xz_table .height-03{
+	height:3%;
+}
+.a4_div_box .xz_table .height-03 .wh-10 {
+	width:10%;
+}
+.a4_div_box .xz_table .height-08 .wh-10 {
+	width:10%;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .tp-186 {
+	width:98%;position:  absolute;text-align: right;bottom:0;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .artisan{
+	height:100%;position: relative;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .ht-28{
+	height:50%;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .skill{
+	width:98%;position: static;text-align: right;bottom:0;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .con-sign{
+	height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .con-sign .con-sign-in{
+	width:98%;text-align: left;margin:0 auto;height:90%;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .con-sign .con-sign-in *{font-size: 20px;}
+.a4_div_box .xz_table .height-08 .wh-10 .con-sign .con-sign-in .con_97{
+	height:97%;
+}  
+.height-085{
+	height:85%;
+}
+.a4_div_box .xz_table .height-04  .wt-10 .height-085{
+	height: 70%;
+}
+.a4_div_box .xz_table .height-06 .wh-12 {
+	width:12%;
+}
+.a4_div_box .xz_table .height-08 .wh-10  .height_100{
+	height:100%;color:deepskyblue;
+}
+.state-time{
+	letter-spacing: 6px;float: right;font-size: 20px;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95{
+	text-align: left; width:95%;margin:0 auto;font-size: 20px;height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95 *{font-size: 20px;}
+.a4_div_box .xz_table .height-06 .wh-12 .wh-90{
+	text-align: left; width:90%;margin:0 auto;height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95 .bureas{
+	margin-top:4px;width:60%;
+	font-size: 20px;
+}
+.a4_div_box .xz_table .height-06 .wh-12 .wh-90 .bureas{
+	margin-top:4px;width:60%;
+}
+.halldo{
+	float:right;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95 .mt-4{
+	margin-top:4px;
+}
+.a4_div_box .xz_table .height-06 .wh-12 .wh-90 .mt-4{
+	margin-top:4px;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95 .reefuse{
+	width:12.6%;top:260px;position: absolute;
+}
+.a4_div_box .xz_table .height-03 .wh-10 .wh-95 .protocal{
+	width:21%;margin:0 auto;text-align: right;
+}
+.tl{
+	text-align: left;
+	font-size: 20px;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .artisan .ht-28{
+    height: 44%;
+}
+.a4_div_box .xz_table .height-08 .wh-10 .artisan .tp-63{
+	width:98%;position: absolute;text-align: right;bottom:0;
+}
+.a4_div_box .xz_table .height-08 .solid{
+	width:10%;border-right:2px solid #00BFFF;
+}
+.a4_div_box .xz_table .height-08 .solid .skll{
+	width:98%;position: static;bottom:0;  
+}
+.a4_div_box .xz_table .height-08 .solid .skll .staff_management{
+	float: left;
+	font-size: 20px;
+}
+.a4_div_box .xz_table .height-08 .solid .artisan{
+	height:100%;position: relative;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08 .wh-10{
+	width:10%;
+}
+.a4_div_box .xz_table .height-08 .wh-10  .artisan{
+	height:100%;position: relative;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08 .solid .artisan .ht-28{
+    height: 44%;
+}
+.a4_div_box .xz_table .height-04 .stamp{
+	height:100%;width:100%;line-height: 40px;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-04 .stamp .width50{
+	width: 50%;float: left;overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 1px;
+}
+.a4_div_box .xz_table .height-04 .vertical_align{line-height:40px;}
+.a4_div_box .xz_table .height-04 .stamp .width50 *{font-size: 20px;}
+.a4_div_box .xz_table .height-04 .stamp .width50 span{
+	float: left;
+	/*width: 30%;*/
+	display: block;
+	text-align: left;
+}
+.a4_div_box .xz_table .height-04 .stamp .width50 input{
+	display: block;
+	/*margin-left: 30%;*/
+	height: 95%;
+	width: 60%;
+    padding-left: 5%;
+    border: none;
+    float: left;
+}
+.a4_div_box .xz_table .height-04 .stamp .width50 input.staull{height: 40px;line-height: 40px;}
+.a4_div_box .xz_table .height-04 .stamp .circurt{
+	float:right;
+}
+.a4_div_box .xz_table .height-04 .stamp .circu{
+	float:left;
+}
+.a4_div_box .xz_table .height-04 .stamp .circu .staull{
+  width:70%;border:0;
+}
+.a4_div_box .xz_table .height-04 .stamp .circurt .stacotips{
+	width:50%;border:0;
+}
+.a4_div_box .xz_table .height-06 .carbon{
+	text-align: left;height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-06 .carbon *{font-size: 20px;}
+.a4_div_box .xz_table .height-04 .carbon{
+	text-align: left;height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-04 .carbon .ht-001{
+	height:50%;
+}
+.a4_div_box .xz_table .height-06 .carbon .ht-028{
+	height:50%;
+}
+.a4_div_box .xz_table .height-06 .carbon .ht-001{
+	height:50%;
+}
+.a4_div_box .xz_table .height-08 .carbon{
+	text-align: left;height:100%;color:deepskyblue;
+}
+.a4_div_box .xz_table .height-08 .carbon *{font-size: 20px;}
+.a4_div_box .xz_table .height-08 .carbon .ht-028{
+	height:60%;
+}
+.a4_div_box  .border-box{
+	height:95%;margin-top:8px;border-left:0;border-right:0;
+	font-family: "仿宋";
+	/*font-family: fs;*/
+	padding: 0px;
+	font-size: 20px;
+}
+.a4_div_box  .border-box1{
+	height:92%;margin-top:8px;border-left:0;border-right:0;
+	font-size: 20px;
+	/*border: none;*/
+}
+.a4_div_box  .border-box1 .border2 td{
+	border-top: 2px solid #00BFFF !important;
+	padding-left: 1px;
+}
+.a4_div_box table tr td:last-child{
+		border-right: none;
+	}
+.a4_div_box table tr td input{
+		outline: none;
+		border: 2px solid #00bfff;
+	}
+	
+
+.a3_div_box{
+	/*width: 794px;*/
+	width: 814px;
+	margin-top:23px !important;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.wire{
+	border:1px solid #00BFFF;
+}
+
+.a3_div_box .xz_table{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid #00BFFF;
+	text-align: center;
+	font-family: "仿宋";
+	/*font-family: fs;*/
+}
+.a3_div_box .xz_table tr td{
+	border-top: 1px solid #00BFFF;
+	border-right: 1px solid #00BFFF;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.a3_div_box .xz_table tr:first-child td{
+	border-top: 0px solid #00BFFF;
+}
+/*.a4_div_box .xz_table tr td:last-child{
+	border-right: 0px solid #CCCCCC;
+}*/
+.a3_div_box .xz_table tr th{
+	border-top: 1px solid #00BFFF
+	border-right: 1px solid #00BFFF;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+.a3_div_box .xz_table tr:first-child th{
+	border-top: 0px solid #00BFFF;
+}
+.a3_div_box .xz_table tr th:last-child{
+	border-right: 0px solid #00BFFF;
+}
+
+
+.settin_box{
+	box-sizing: content-box;
+	width: 10%;
+	height: 100%;
+	padding-right: 20%;
+	background: url(../images/mail_list1.png) no-repeat right;
+	background-size: 15px 15px;
+	cursor: pointer;
+	margin-left:20px;
+}
+.border-bottom {
+	border-bottom: solid 1px #ddd
+}
+
+.a3_div_box .xz_table .needed{
+	height:4%;font-size:14px;
+}
+.a3_div_box .xz_table .needed .want{
+	width:30%;background-color:#F1FAFF;
+	padding: 20px 0px;
+}
+.a3_div_box .xz_table .needed  .need-sth{
+	border-right:0;
+}
+.a3_div_box .xz_table .needed  .need-sth .answer{
+	width:25%;text-align: left;margin-left:20px;
+}
+.fl-g{
+	float:right;
+}
+.abox{
+	margin:0 auto; margin-top:3px;
+}
+.a3_div_box  .refer{
+	margin-top:15px;text-align: center;
+}
+.a3_div_box  .refer .bt-refer{
+	width:160px;background-color:#4A81ED;border:0;height:40px;border-radius: 20px;color:white;
+}
+
+.width-50{
+	width: 45%;
+	/*line-height: 35px;*/
+} 
+.left{
+	float: left;
+	
+}
+.right{
+	float: right;
+}
+
+
+
+/*
+ * 新增样式start
+ * 装订线样式
+ */
+.a4_div_box {
+    padding-left: 35px;
+    /*width: 759px;*/
+    position: relative;
+    margin-left: 20px;
+}
+.a4_div_box .binding_line{
+	position: absolute;
+	left: 0px;
+	top: 10%;
+	width: 24px;
+	height: 80%;
+	font-size: 20px;
+	font-family: "仿宋";
+	color:deepskyblue;
+	border-left: 1px dashed deepskyblue;
+}
+.a4_div_box .binding_line span{
+	position: absolute;
+	top: 50%;
+	height: 120px;
+	line-height: 40px;
+	margin-top: -60px;
+	width: 100%;
+	text-align: center;
+	margin-left: -12px;
+	background-color: #FFFFFF;
+}
+
+/*
+ * 新增样式end
+ */
+
+/*
+ * 打印按钮
+ */
+
+.parint_box{
+	width: 824px;margin: 0 auto;text-align: right;padding-top: 10px;
+}
+.parint_box #btnPrint{
+	font-size: 14px;
+	color: #B9BFE3;
+	text-decoration: none;
+	cursor: pointer;
+}
+.parint_box #btnPrint img{
+	position: relative;
+	top: 0px;
+	margin-right: 5px;
+}
+/*
+ * 附件说明
+ */
+.xz_table .needed .fjsm{
+	padding-left: 20px ;
+}
+.xz_table .needed .float-left{
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.xz_table .needed .float-left .btn_span{
+    color: #4E80F6;
+    border: 1px solid #4E80F6;
+    background-color: #F3F9FE;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 2em;
+    font-size: 14px;
+}
+
+/*
+ * 正文编辑
+ * 
+ */
+.xz_table .needed .text-left{
+	text-align: left;
+}
+.xz_table .needed .text-left a{
+	color: #4E80F6;
+    border: 1px solid #4E80F6;
+    background-color: #F3F9FE;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 2em;
+    margin-left: 20px;
+}

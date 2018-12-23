@@ -1,0 +1,48 @@
+.content{
+	background: url(../images/examination_bg.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.start_box{
+	width: 310px;
+	height: 210px;
+	margin: 250px auto;
+}
+.start_box .exam_text{
+	width: 260px;
+	height: 60px;
+	background: #377af2;
+	border-radius: 35px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	margin: 0 auto;
+}
+.start_box .exam_remark{
+	margin-bottom:10px;
+	font-size: 14px;
+	color: #96a2ab;
+}
+.start_box div:nth-child(2){
+	margin-top: 40px;
+}
+.catalog .catalog_ul li{
+	border: none;
+	line-height: 30px;
+}
+.catalog .catalog_ul li span{
+	color: #96a2ab;
+}
+.catalog .catalog_ul li .left{
+	margin-top: 5px;
+}
+.catalog{
+	padding: 0px;
+}
+
+.catalog .catalog_ul li:hover .left {
+    background-color: #FFFFFF;
+    color: #96a2ab;
+    border-color: #CCCCCC;
+}
+
+

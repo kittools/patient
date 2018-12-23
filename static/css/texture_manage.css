@@ -1,0 +1,45 @@
+.border{
+	border-radius: 50px;text-align:center;border-color:blue;
+}
+.accessory{
+	height:30px; line-height:30px; margin-left:28px;
+}
+.text-head{
+	cursor:pointer;
+}
+.staty{
+	cursor:not-allowed;
+}
+/*党员信息*/
+.surrender{
+	margin-top:-36px;
+	
+}
+.x9 .dyxx{
+	 width:85%; margin-left: 120px;
+}
+
+/*新增党员信息*/
+.jiah{
+	margin-top:70px;
+}
+.jh{
+	text-align: center;height:110px;
+}
+.hits{
+	text-align: center;
+}
+.wt-190{
+	width:190px;
+	height:238px;
+}
+/*弹出框*/
+.office{
+	width: 267px;height: 31px;border-radius:3px;padding-left: 15px;
+}
+.wb{
+	 width:300px;height: 40px;padding-left: 30px;
+}
+.gdwz{
+	font-size:12px;
+}

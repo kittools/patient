@@ -1,0 +1,14 @@
+.fenye select {
+	height: 18px;
+	font-size: 12px;
+}
+
+.width_250 {
+	width: 250px;
+}
+
+.button_box {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}

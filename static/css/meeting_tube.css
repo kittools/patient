@@ -1,0 +1,54 @@
+.padding_0{
+	padding:0;
+}
+.title_box{
+	margin-left: 30px;
+	/*margin-bottom: 120px;*/
+}
+.search_box{
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.search_box .active{
+	background:#377af2;
+	color: #fff;
+}
+ul li{list-style: none;}
+/*编辑器*/
+.editor_box{
+	padding: 0px !important;
+	vertical-align: top !important;
+}
+.editor_script{
+	width: 100% !important;
+	height: 100 !important;
+}
+.chart_choose{
+	display: block;
+	width: 150px;
+	height: 30px;
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border:1px solid #d3dbe6;
+	margin: 10px 10px 10px 30px;
+}
+.chart_choose input{
+	width: 100%;
+	height: 28px;
+	padding: 0px;
+	border:none;
+	display: block;
+}
+/*统计图*/
+.cross_box{width: 27%;height: 560px;float: left;clear: both;}
+.cross_box div{width: 100%; height: 100%; margin: 0 auto}
+.total_box{width: 50%;height: 150px;float: left;margin-left: 10px;border: 1px solid #c4ccdb;border-radius: 10px;margin-top: 10px;}
+.total_box .total_li{width: 33.33%;height: 70px;margin-top:40px;float: left;text-align: center;border-left: 1px solid #c4ccdb;}
+.total_box .total_li .total_num{color: #1d80ff;font-size: 40px;}
+.total_box .total_li:first-child{border-left: none;}
+.network_box{width: 19%;height: 180px;float: left;margin-left: 10px;}
+.network_box div{/*width: 80%;*/height: 100%; margin: 0 auto}
+.vertical_box{width: 50%;height: 330px;float: left;margin-left: 10px;margin-top: 20px;}
+.degree_box{width: 19%;height: 330px;float: left;margin-left: 20px;}
+

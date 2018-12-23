@@ -1,0 +1,45 @@
+.table_box{
+	width: 90%;
+	height: 330px;
+	margin: 0 auto;
+}
+.table_box th{
+	font-size: 14px;
+	width: 190px;
+	background: #f1f8fe;
+	text-align: center;
+	border: 1px solid #d3dbe6;
+}
+.table_box td{
+	font-size: 14px;
+	background: #fff;
+}
+.red_name{
+	border: 0px;
+	width: 95%;
+	outline:none;
+	cursor: pointer;
+	border-bottom: 1px solid #d3dbe6;
+	display: block;
+}
+.edit_text{
+	width: 170px;
+	height: 40px;
+	background: #377af2;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.range_all label{
+	margin-right: 100px;
+}
+.range_all input{
+	margin-right: 5px;
+}
+.relation_choice{
+	width: 95%;
+	border: 0;
+	display: block;
+}
+

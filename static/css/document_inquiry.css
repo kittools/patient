@@ -1,0 +1,106 @@
+.inquiry{
+	width: 90%;
+	margin: 0 auto;
+	background: transparent;
+}
+.inquiry .inquiry_ul{
+	width: 100%;
+	padding: 25px 0px;
+	list-style: none;
+}
+.inquiry .inquiry_ul .inquiry_li{
+	width: 46%;
+	margin-right: 4%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	list-style: none;
+	overflow: hidden;
+	background-color: #F3F9FE;
+    height: 60px;
+    line-height: 30px;
+}
+.inquiry .inquiry_ul .inquiry_li.line_li{
+	width: 96%;
+}
+.inquiry .inquiry_ul .inquiry_li.line_li .left_li{
+	width: 16%;
+}
+.inquiry .inquiry_ul .inquiry_li.line_li .right_li{
+	margin-left: 17%;
+	padding:  0px;
+}
+.inquiry .inquiry_ul .inquiry_li .left_li{
+	width: 33%;
+	padding: 20px 0px;
+	text-align: right;
+	color: #262626;
+	background-color: #F3F9FE;
+	/*min-width: 100px;*/
+	line-height: 17px;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li{
+	margin-left: 35%;
+	padding: 15px 0px;
+	text-align: left;
+	border-left: 1px solid #CCCCCC;
+	color: #5A5A5A;
+	background-color: #FFFFFF;
+	height: 100%;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz{
+	width: 50%;
+	height: 100%;
+	border-right:1px solid #CCCCCC;
+	padding: 15px 5px;
+	line-height: 30px;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz span{
+	float: left;
+	/*margin-right: 5px;*/
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz label{
+	cursor: pointer;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz input{
+	cursor: pointer;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz input[type=text]{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz:first-child{
+	width: 37%;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz:last-child{
+	width: 63%;
+	border: none;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li .div_box_gjz input{
+	display: inline;
+	width: auto;
+	height: auto;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li input{
+	padding: 0px 10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: inherit;
+}
+.inquiry .inquiry_ul .inquiry_li .right_li select{
+	padding: 0px 10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: inherit;
+}
+.input_span{width: 70px;}

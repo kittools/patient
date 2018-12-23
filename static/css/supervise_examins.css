@@ -1,0 +1,93 @@
+.mins{
+	box-shadow:0 0 0;
+}
+.wu{
+	  margin-left: 480px;
+}
+
+.text-blue{
+color: #0ae;
+	
+}
+.radius-rounded {
+	border-radius: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border:1px solid blue;
+
+}
+.complete{
+	left:5px;
+}
+
+.add_tex{
+	width: 150px;
+	height: 40px;
+	background: #377af2;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	float: right;
+	display: inline;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.fank{margin: 20px 0 0 50px;}
+/*.fank span{margin-right: 20px;}*/
+.fank input{width: 250px;height: 25px;padding-left: 15px;}
+
+.fank1{
+	background-color:#F5F5F5;
+	border:0px;
+	cursor:not-allowed;
+}
+
+
+.ju{
+	 height:300px;margin-left: 3%;
+}
+ .nr{
+	width:600px; height:80px; /*box-shadow: darkgrey 0.01px 0.01px 1px 1px ;*/
+}
+.ww{
+	margin-right:160px; margin-top:20px;
+}
+
+ #box{position: relative; width: 200px; height: 50px; border: 0px solid #eee; margin: 40px auto 0;}
+ #bg{height: 10px; margin-top: 2px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;}
+ #bgcolor{background: #5EB7F9; width: 0; height: 10px; border-radius: 5px;}
+ #bt{width: 20px; height: 20px;background-color: #C2D0E6; border-radius: 17px; overflow: hidden; position: absolute; left: 10px; margin-left: -17px; top: -3px; cursor: pointer;}
+ #text{width: 200px; margin: 0 auto; font-size: 16px; line-height: 2em;}
+
+/*统计*/
+.sxs{
+	
+	background-color:#F1F8FE;
+}
+.rrt{
+	  width: 190px;
+    height: 25px;
+    border: 1px solid #d3dbe6;
+    border-radius: 40px;
+    padding-left: 15px;
+}
+ .lv{
+ 	padding-top: 40px;
+ }
+ .tongji{
+ 	display: inline-block;margin-left: 30px;
+ } 
+ .dw{
+ 	 margin:0 30px 0 5px;
+ }
+.chong{
+	display: inline-block;vertical-align: middle;
+}
+.dcdy{
+	margin-top:-1px;
+}
+.text-head{
+	cursor:pointer;
+}

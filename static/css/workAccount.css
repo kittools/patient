@@ -1,0 +1,398 @@
+.bg-blue-new{
+	background-color: #508DED;
+	color: #FFFFFF;
+}
+.bg-blue-new:hover{
+	background-color: #508DED;
+	color: #FFFFFF;
+}
+
+/*头*/
+#container .right .content .wepper .qd_header {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+#container .right .content .wepper .qd_header .title_ {
+	height: 20px;
+	background: url(../img/huixian.png) no-repeat left;
+	width: 100%;
+	margin: 20px auto;
+	background-size: 100%;
+	position: relative;
+}
+#container .right .content .wepper .qd_header .title_no_bg {
+	height: 20px;
+	background: url(none) no-repeat left;
+	width: 100%;
+	margin: 20px auto;
+	background-size: 100%;
+	position: relative;
+}
+#container .right .content .wepper .qd_header .title_ span {
+	font-size: 16px;
+	font-weight: bold;
+	color: #5485d1;
+	background-color: #FFFFFF;
+	padding: 2px 5px;
+}
+
+#container .right .content .wepper .qd_header .title_ .position_a {
+	position: absolute;
+	left: 0px;
+	z-index: 9;
+	border-radius: 20px;
+	color: #FFFFFF;
+	background-color: #dbe2f2;
+	font-size: 12px;
+	padding: 5px 8px;
+}
+#container .right .content .wepper .qd_header .title_ .position_b {
+	position: absolute;
+	right: 0px;
+	z-index: 9;
+}
+
+#container .right .content .wepper #tab-set {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/*公文审批*/
+
+#container .right .content .wepper .mask {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 99;
+}
+
+#container .right .content .wepper .mask .box_visi {
+	width: 650px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#container .right .content .wepper .mask .box_visi .box_file {
+	width: 650px;
+	height: 90%;
+	overflow: hidden;
+	overflow-y: auto;
+	background-color: #0099FF;
+	margin: 0 auto;
+	margin-top: 40px;
+	min-height: 450px;
+	position: relative;
+}
+
+#container .right .content .wepper .mask .box_visi .position_mask {
+	position: absolute;
+	right: -170px;
+	top: 170px;
+	z-index: 9;
+	width: 140px;
+	padding: 0;
+}
+
+#container .right .content .wepper .mask .box_visi .position_mask li {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#container .right .content .wepper .mask .box_visi .position_mask li button {
+	width: 120px;
+	border-radius: 20px;
+	background-color: #f94f52;
+	border: 0px;
+}
+
+#container .right .content .wepper .mask .box_visi .position_mask li button.bg-lan {
+	background-color: #508ded;
+}
+
+#container .right .content .wepper .mask .box_visi .position_mask li.mar_bottom_70 {
+	margin-bottom: 70px;
+}
+
+#container .right .content .wepper .seeion {
+	width: 90%;
+	min-width: 950px;
+	min-height: 500px;
+	overflow: hidden;
+	zoom: 1;
+	margin: 0 auto;
+}
+
+#container .right .content .wepper .seeion .approvalProcess {
+	float: left;
+	width: 350px;
+	border-radius: 3px;
+	border: 1px solid #CCCCCC;
+	height: 100%;
+	margin: 0px;
+	margin-left: 50px;
+	margin-right: 10px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .shuxian {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	background: url(../img/shuhuixian.png) 29px 30px repeat-y;
+	margin: 30px 0px;
+	padding-left: 27px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .shuxian .span_box {
+	color: #e2e2e2;
+	position: absolute;
+	top: -17px;
+	left: 22px;
+	z-index: 9;
+	width: 100px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .shuxian .span_box span {
+	font-size: 25px;
+	height: 33px;
+	line-height: 33px;
+	display: block;
+	float: left;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .shuxian .span_box span.font {
+	font-size: 14px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou {
+	background-color: transparent;
+	padding: 0;
+	position: relative;
+	top: 55px;
+	left: -10px;
+	z-index: 20;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li {
+	margin-bottom: 20px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div {
+	float: left;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_left {
+	width: 80px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_left img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_left p {
+	font-size: 12px;
+	color: #666666;
+	margin: 0px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_right {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	width: 255px;
+	border-radius: 5px;
+	position: relative;
+	color: #999999;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_right img {
+	width: 18px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_right span {
+	padding-left: 5px;
+	color: #364fab;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_right p {
+	margin: 0px;
+	padding-left: 22px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li div.box_right .position_date {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #999999;
+	font-size: 12px;
+}
+
+#container .right .content .wepper .seeion .approvalProcess .buzhou li {
+	background-color: transparent;
+}
+
+#container .right .content .wepper .seeion #tab-set {
+	float: left;
+	width: 500px;
+	border-radius: 10px;
+	height: 100%;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .tp_img {
+	overflow: hidden;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .tp_img span {
+	display: block;
+	width: 100px;
+	height: 120px;
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .tp_img span img {
+	width: 100%;
+	height: 100%;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .email {
+	padding: 5px 10px;
+	padding-left: 25px;
+	border-left: 1px solid #CCCCCC;
+	background: url(../img/qubiezhen.png) 5px 7px no-repeat;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .email a {
+	color: #364fab;
+	padding-right: 10px;
+}
+
+#container .right .content .wepper .seeion #tab-set .form-group .email span {
+	width: 60;
+	height: 20px;
+	color: #FFFFFF;
+	background-color: #f94f52;
+	padding: 3px 12px;
+	border-radius: 12px;
+}
+
+
+/*列表*/
+
+.table tr.current th {
+	background-color: #C5D0EA;
+	color: #FFFFFF;
+	border-bottom: 0px;
+}
+
+.table-hover>tbody>tr:hover>td {
+	background-color: #fdf7f4;
+}
+
+.table-hover>tbody>tr:hover>th {
+	background-color: #C5D0EA;
+}
+
+.table tr td>.button {
+	font-size: 12px;
+	padding: 0px 15px;
+}
+
+
+/* /背景色*/
+
+.bg-red,
+.border-red .button.active,
+.pointer.border-red .active,
+.nav-pills.border-red .active a,
+.nav-red.border-red .nav-head,
+.pagination.border-red .active {
+	background-color: #f94f52;
+	color: #FFFFFF;
+}
+
+
+/*分页*/
+
+
+
+.fenye {
+	text-align: center;
+	color: #CCCCCC;
+}
+
+.fenye .pagination .active {
+	background-color: #364fab;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.fenye .pagination .active:hover a {
+	cursor: pointer;
+}
+
+.fenye .pagination .active a {
+	color: #FFFFFF;
+}
+
+.fenye .input {
+	text-align: center;
+	color: #CCCCCC;
+	display: inline;
+	width: 50px;
+	padding-left: 20px;
+}
+
+.fenye select.input {
+	padding: 6px;
+	width: 80px;
+}
+
+
+
+
+
+/*电子印章*/
+.seal tr td,.seal tr th{vertical-align: top;border: 0;}
+.seal .seal_add{display: block;width: 80px;height: 80px;background-color: #FCFCFC;font-size: 30px;outline: none;border: 1px solid #CCCCCC;color: #AAAAAA;text-align: center;line-height: 80px;cursor: pointer;}
+.seal .seal_yl{
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	vertical-align: middle;
+}
+.seal .input_pin{width: 220px;margin: 5px 0px;}
+
+
+
+
+
+/*中转页*/
+
+.TotalSelection{width: 16px;height: 16px;}
+.check_box input[type=checkbox]{width: 16px;height: 16px;}
+.check_box label{margin-right: 20px;color: #CCCCCC;}
+.check_box label.active{color: #364FAB;}
+
+
+/*报到时间设置*/
+.form-auto .input-group .input.textarea{width: 600px;display: block;}
+.table_timeSetting {width: 800px;margin: 0 auto;}
+
+.table_timeSetting  .click_p{width: 600px;text-align: center;background-color: #C5D0EA;color: #FFFFFF;cursor: pointer;}

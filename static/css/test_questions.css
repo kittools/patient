@@ -1,0 +1,119 @@
+.test_questions_box .test_questions_table{
+	/*border-radius: 10px;*/
+	position: relative;
+}
+.test_questions_box .test_questions_table:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 20px;
+    left: 22px;
+    bottom: 20px;
+	border-left: 1px solid #C0C0C0;
+	z-index: 0;
+}
+.test_questions_box .after_none:after{
+	display: none;
+}
+.test_questions_box .test_questions_table tr{
+	background-color: transparent;
+}
+.test_questions_box .test_questions_table tr .bg-hui{
+	background-color: #F3F9FE;
+	font-weight: 600;
+}
+.test_questions_box .test_questions_table .test_left{
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 18px;
+	float: left;
+	font-size: 13px;
+	background-color: #FFFFFF;
+	color: #6a6a6a;
+	font-weight: 600;
+	border-radius: 50%;
+	display: block;
+	margin-right: 10px;
+    position: relative;
+    z-index: 9;
+}
+.test_questions_box .test_questions_table tr td .browse{
+	color: #4E80F6;
+	border-color: #4E80F6;
+	background-color: #F3F9FE;
+	cursor: pointer;
+    padding: 1px 20px;
+}
+.test_questions_box .test_questions_table tr td .file_box{
+	float: left;
+	width: 70%;
+}
+.test_questions_box .test_questions_table tr td .span_num{
+	margin: 0px 3px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 19px;
+}
+.test_questions_box .test_questions_table tr td.center_center{
+	text-align: center;
+	vertical-align: middle;
+}
+.test_questions_box .test_questions_table tr td.center_center .test_number{
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: block;
+	position: relative;
+	left: 15%;
+	top: 20px;
+}
+.test_questions_box .test_questions_table tr td .h3{
+	color: #3C4B5D;
+	font-size: 14px;
+}
+.test_questions_box .test_questions_table tr td .sele_ul{
+	padding: 0px;
+	list-style: none;
+}
+.test_questions_box .test_questions_table tr td .sele_ul li{
+	padding: 0px;
+	margin: 15px;
+}
+.test_questions_box .test_questions_table tr td .sele_ul li > span{
+	float: left;
+	margin-right: 5px;
+}
+.test_questions_box .test_questions_table tr td .sele_ul li .duicuo{
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.test_questions_box .test_questions_table tr td .sele_ul li .duicuo img{
+	width: 16px;
+}
+.test_questions_box .test_questions_table tr td .sele_ul li .span_info{
+	color: #3C4B5D;
+	font-size: 14px;
+	float: left;
+	margin-right: 5px;
+}
+.test_questions_box .test_questions_table tr td .bg-hui{
+	background-color: #F6F6F6;
+	color: #959595;
+	padding: 1px 10px;
+	margin-right: 8px;
+	font-weight: 400;
+}
+.bg-none{
+	background-color: transparent;
+	font-weight: 600;
+}

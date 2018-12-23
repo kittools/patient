@@ -1,0 +1,50 @@
+.button_box{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	margin-top: 15px;
+}
+.button_box .button_ul{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border-radius: 3px;
+	border: 1px solid #C0D9FE;
+	float: left;
+	margin-right: 10px;
+}
+.button_box .button_ul .button_li{
+	padding: 9px 20px;
+	font-size: 14px;
+	color: #377AF2;
+	text-align: center;
+	border-right: 1px solid #C0D9FE;
+	float: left;
+	list-style: none;
+	cursor: pointer;
+}
+.button_box .button_ul .button_li.active{
+	color: #FFFFFF;
+	border-right: 1px solid transparent;
+	background-color: #377AF2;
+}
+.button_box .button_ul .button_li.disabled_btn{
+	color: #BFD0EB;
+	cursor: no-drop;
+}
+.button_box .button_ul .button_li:last-child{
+	border-right: 0px solid #C0D9FE;
+}
+.button_box .button_ul .button_li img{
+	margin-right: 8px;
+	width: 16px;
+	height: 16px;
+}
+.file_list {}
+.file_list .file_table{
+	border: 1px solid #f1f8fe;
+}
+.file_list .file_table tr td .tr_img{
+	margin-right: 8px;
+}

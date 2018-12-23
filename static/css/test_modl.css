@@ -1,0 +1,188 @@
+.express{
+	color:#9C9C9C;
+}
+.mayor{
+	 font-size:20px;
+}
+.duty{
+	text-align: center;margin-top:130px;color:#202052;font-size:18px;font-weight: 600;
+}
+.analysis{
+	margin-top:20px;
+}
+.format{
+	 margin-top:10px;margin-left:123px;
+}
+.sector{
+	float:right;margin-top:50px;
+}
+.roll{
+	text-indent: 2em;margin-top:10px;
+}
+.drought{
+	text-align: center;margin-top:10px;font-weight: bold;
+}
+.bazaar{
+	margin-top:22px;
+}
+.upon{
+	text-align: center;
+}
+
+
+/*山西省河流名录*/
+.tab-border th,
+.tab-border td {
+	border: solid 1px black
+}
+
+.service{
+	width:100%;height:80px
+}
+.gluten{
+	vertical-align: middle;font-weight: 600;font-size: 20px;
+}
+.area{
+	margin-left: 28%;
+}
+.machine{
+	letter-spacing:3.2em;
+}
+.water{
+	font-weight: 600;font-size: 20px;
+}
+.census{
+	 text-align: right;letter-spacing:5px;
+}
+.untried{
+	width:100%;
+}
+.institution{
+	height:700px; margin-top:60px; margin-left:60px;font-size:18px;width:1150px; 
+}
+/*统计图*/
+.basins{
+	color:#DDDDDD;
+}
+.reservoir{
+	margin-left:50px;margin-top:8px;
+}
+.captin{
+	width:130px; border:1px solid #5DE78E; height:60px; margin-left:98px; margin-top:-1px;
+}
+.graphic{
+	float:left;margin-top:16px;margin-left:38px;
+}
+.graph{
+	width:100px;border:1px solid #5DE78E;height:60px;
+}
+.warehouse{
+	 height:60px;margin-top:123px;
+}
+.three{
+	font-weight: 600;font-size:18px;
+}
+.dam{
+	margin-left:278px;margin-top:-60px;
+}
+.dyke-dam{
+	width:100px;border:1px solid #66BFF7;height:60px;
+}
+.dyke-dams{
+	width:130px;border:1px solid #66BFF7;height:60px;margin-left:98px;margin-top:-1px;
+}
+.dake-lev{
+	margin-left:50px;margin-top:8px;
+}
+.lock{
+	margin-left:562px;margin-top:-60px;
+}
+.gatte{
+	border:1px solid #FBD437;
+}
+.slutice{
+	margin-left:8px;margin-top:8px;text-align: center;
+}
+.responsibility{
+	margin-left:845px;margin-top:-60px;
+}
+.survey{
+	border:1px solid #EE9AEF;
+}
+.channel{
+	width:220px;border:1px solid #EE9AEF;height:60px;margin-left:98px;margin-top:-1px;
+}
+.cartgom{
+	width:1300px;height:500px;
+}
+.cookie{
+	width: 50%; height: 400px;margin-top:20px;  
+}
+.pillar{
+	width: 550px; height: 280px; margin-left:630px;margin-top:-400px;
+}
+.inrerval{
+	width:470px;height:200px;margin-left:700px;margin-top:15px;color:#AFD2F4;
+}
+.basin{
+	width:26%;
+}
+.auatic{
+	margin-top:5px;
+}
+.surface{
+	 height:50px;
+}
+.ecport{
+	margin-top:-80px;
+}
+.seal{
+	margin-left:12px;
+}
+.tical{
+	width:100%;
+}
+.cros{
+	width:100%;margin-top:30px;margin-left:20px;
+}
+.stemflow{
+	width:100%; height:100%;
+}
+.pulltn{
+	margin-top:10px;
+}
+.su_tinct{
+	background-color: #F581CF;
+}
+.chan_tinct{
+	background-color: #EE9AEF;
+}
+.total{
+	color:white;
+}
+.flu_tinct{
+	background-color: #FBD437;
+}
+.ga_tinct{
+	background-color: #F4CA23;
+}
+.dan_tinct{
+	background-color: #66BFF7;
+}
+.dyke_tinct{
+	background-color: #54A3F5;
+}
+.cap_tinct{
+	background-color: #5DE78E;
+}
+.ph_tinct{
+	background-color: #4DD77E;
+}
+.export_date{
+	margin-top:35px;
+}
+.type_date{
+	margin-left:12px;
+}
+
+

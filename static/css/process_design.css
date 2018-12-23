@@ -1,0 +1,161 @@
+.input_table tr td .input.padd_bottom_0{
+	padding-bottom: 0px;
+}
+.input_table tr td .input.border_bottom_none{
+	border-bottom: 0px;
+}
+.input_table tr td.border_bottom_none{
+	border-bottom: none;
+}
+.input_table tr td.border_top_none{
+	border-top: none;
+}
+.input_table tr td.border_none{
+	border: none;
+}
+.input_table tr td.border_bottom{
+	border-bottom: 1px solid #CCCCCC;
+}
+.input_table tr td .border_bottom{
+	border-bottom: 1px solid #CCCCCC;
+}
+label,input[type=radio],input[type=checkbox]{
+	cursor: pointer;
+}
+.input_table tr td .sele_inline{
+	display: inline;
+	border-radius: 2em;
+	border: 1px solid #CCCCCC;
+	padding: 0px 20px;
+	width: auto;
+    height: 20px;
+}
+.input_table tr td .zdy_box{
+	display: block;
+	width: 140px;
+	background: url(../images/mail_list.png) no-repeat 98% ;
+	background-size: 14px 16px;
+}
+
+.step-point{
+	position: static;
+}
+table tr td .text-grey{
+	color: #323232;
+}
+.input_table tr td .hide{
+	display: none;
+}
+.input_width{
+	width: 80px;
+}
+.span_width{
+	width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.definition tr td:first-child + td{
+	position: relative;
+}
+.definition tr td:first-child + td:after{
+	position: absolute;
+	top: 0px;
+	left:18px;
+	bottom: 0px;
+	content: "";
+	border-left: 1px solid #CCCCCC;
+	z-index: -1;
+}
+.input_h_20 tr td input ,.input_h_20 tr td select{
+	height: 20px;
+	
+}
+.input_table .definition tr td:first-child +td .input{
+	width: 50%;
+}
+.input_table .definition tr td:first-child +td .input{
+	width: 50%;
+}
+
+.definition tr td .step-point{
+	cursor: pointer;
+}
+.input_table  tr td input[type=radio]{
+	position: relative;
+	top:5px;
+}
+.input_table tr td .tips{
+	
+	background: url(../images/question_mark.gif) no-repeat right top;
+	
+	padding-right: 13px;
+}
+
+
+
+/*表单生成*/
+.form_table{
+	
+}
+.span_right_btn{
+	width: 80px;
+	position: relative;
+	top: 13px;
+	text-align: center;
+}
+.span_right_btn input[type=radio]{
+	position: relative;
+	top:2px;
+}
+.add_div_box{
+	display: none;
+}
+.add_div_box .span_html_box > span{
+	position: relative;
+    padding-right: 20px;
+    margin: 10px;
+    display: block;
+    float: left;
+}
+.add_div_box .span_html_box span .close{
+	color: #C0C0C0;
+	position: absolute;
+	right: 3px;
+	top: -4px;
+	width: 15px;
+	height: 15px;
+	display: block;
+}
+.add_div_box .add_span{
+    color: #4784E2;
+    border-color: #4784E2;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.add_div_box .icon_span{
+	position: relative;
+	top: 0px;
+}
+.form_table tr td.center_center{
+	text-align: center;
+	vertical-align: middle;
+}
+.form_table tr td .input{
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	outline: none;
+	box-shadow: none;
+	border-radius: 0px;
+}
+.form_table tr td select.input{
+	background: url(../images/drop_down.gif) no-repeat right;
+	/*background-size: 20px;*/
+}
+
+.form_tbody tr td .step-point{
+	cursor: pointer;
+}

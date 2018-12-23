@@ -1,0 +1,146 @@
+.width_010{
+	width:100%;
+}
+.ps-re{
+	position: relative;
+}
+/*通讯录详情*/
+.payment_info ul li{
+	list-style: none !important;
+}
+.title1{
+	margin-top:10px;
+}
+.payment_info .project_ul .branch{
+	list-style: none;
+	width: 100%;
+}
+.relave .box-lunch{
+	padding:0;
+}
+.btn_back {
+    background-color: #deebf5;
+    border-radius: 13px;
+    padding: 0px 8px;
+}
+.title_box .title_all .back {
+    position: relative;
+    top: -2px;
+
+}
+.title_box  .head_back {
+   cursor:pointer;
+
+}
+
+.address_box{
+	width: 750px;
+	height: 590px;
+	border: 1px solid #D3DBE6;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	border-radius: 5px;
+}
+.address_box .header_box{
+	width: 100%;
+	height: 30%;
+	background: url(/theme/Default/images/address_details.png) ;
+	background-size: 100% 100%;
+	padding-top: 20px;
+}
+.address_box .header_box img{
+	width: 92px;
+	height: 92px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	background-size: 100% 100%;
+}
+.address_box .header_box .header_text{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.address_box .text_box{
+	width: 100%;
+	height: 70%;
+	padding: 40px 0 0 170px;
+}
+.address_box .text_box .text_left{
+	width: 100px;
+	text-align: right;
+	float: left;
+	font-size: 16px;
+	color: #377af2;
+	margin-right: 30px;
+}
+.address_box .text_box .text_right{
+	font-size: 16px;
+	margin-left: 40px;
+}
+.address_box .text_box ul li{
+	margin-bottom: 35px;
+}
+.address_box .text_box .text_connect{
+	float: left;
+	width: 7px;
+	height: 7px;
+	margin-top: 8px;
+	border-radius: 50%;
+	border: 1px solid #D3DBE6;
+	background: #fff;
+}
+.address_box .text_box .text_ul{
+	position: relative;
+}
+.address_box .text_box .text_ul:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 153px;
+	border-left: 1px solid #D3DBE6;
+	z-index: -1;
+}
+.edge{
+	border:none;border-bottom:1px solid #D3DBE6;border-radius: 0px;
+}
+.mt-20{
+	margin-top:20px;text-align: center;
+}
+.backtrack{
+	width: 185px;height: 40px;background: #4279E8;border-radius: 20px;line-height: 40px;color: #fff;	border: none; outline:none;
+}
+.wh-90{
+	width:90%;margin:0 auto;
+}
+.width-098{
+	width:98%;margin:0 auto;
+}
+.map{
+	height:8px;vertical-align: middle;
+}
+.height-20{
+	background:#F3F9FE;height:34px;width:100%;
+}
+.sector{
+	height:35px;margin-left:18px;color: #8DB3F7;line-height:35px;
+}
+.table tr td .view{
+margin-left:12px;
+}
+
+.title_al{
+	margin-left: 20px;
+	border-left:1px solid #000;
+	/*padding-left: 0px;*/
+}
+.lf-0{
+	position: absolute;left:0;
+}
+.mt-20 .head_back{
+	 cursor:pointer;
+}

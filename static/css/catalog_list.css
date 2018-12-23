@@ -1,0 +1,14 @@
+.table_box .newly_build{
+	width: 10%;
+	height: 30px;
+	background: #377af2;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	float: right;
+	margin-top: -25px;
+}
+.table_edit tr td input[type=text]{
+	width: 87%;
+}

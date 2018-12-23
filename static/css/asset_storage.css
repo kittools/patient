@@ -1,0 +1,105 @@
+.posi{
+	position: relative;
+}
+.posi:hover .fast_processing_box{
+	display: block;
+}
+.fast_processing_box{
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 0 -12px 5px #000000;
+	border-radius: 8px;
+	z-index: 9999;
+	display: none;
+}
+.fast_processing_box .fast_processing_ul{
+	width: 100%;
+	height: auto;
+	padding: 3px 10px;
+	list-style: none;
+}
+.fast_processing_box .fast_processing_ul .fast_li{
+	width: 100%;
+	padding: 5px 0px;
+	text-align: left;
+	color: #6E6E6E;
+	font-size: 14px;
+}
+.fast_processing_box .fast_processing_ul .fast_li:hover{
+	color: #397AEE;
+}
+.fast_processing_box .fast_processing_ul .fast_li a{}
+.fast_processing_box .fast_processing_ul .fast_li a:hover{
+	color: inherit;
+}
+.see{cursor:pointer;}
+.bg_white{
+	background-color: #FFFFFF !important;
+	border: 1px solid #4E80E8;
+}
+.button_sub{
+	margin-left: 30px;
+	cursor: pointer;
+}
+a.button_sub:hover{
+	color: inherit;
+}
+.choice_assets{
+	width: 100px;
+	height: 24px;
+	background: #f1f8fe;
+	border: 1px solid #377AF2; 
+	color: #377AF2;
+	text-align: center;
+	border-radius: 20px;	
+	margin-top: 20px;
+	cursor: pointer;
+	padding:0px 12px
+}
+.selected_assets{
+	width: 100px;
+	height: 24px;
+	background: #f1f8fe;
+	border: 1px solid #377AF2;
+	color: #377AF2;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	padding: 0px 12px;
+}
+/*岗位知识查看*/
+.post_duties_box{
+	width: 100%;
+    border: 1px solid #d3dbe6;	
+    border-top: 3px solid #4887e6;
+}
+.post_duties_top{
+	height: 70px;
+	margin-left: 20px;
+	line-height: 70px;
+	font-size: 24px;
+}
+.post_duties_bottom{
+	width: 100%;
+	padding: 30px;
+}
+.post_duties_bottom div{
+	line-height: 25px;
+}
+.duties_bot{
+	width: 100%;
+	min-height: 60px;
+}
+.duties_span{
+	padding: 0px 15px;
+	border: 1px solid #d4dbe6;
+	border-radius: 35px;
+	margin: 0px 10px 10px 10px;
+	float: left;
+}
+.last_bottom{margin-bottom: 50px;}

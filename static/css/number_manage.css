@@ -1,0 +1,89 @@
+.table_box{
+	width: 85%;
+	height: 330px;
+	margin: 0 auto;
+}
+.table_box tr,.table_box th{
+	text-align: center;
+}
+.table_box th{
+	border: 1px solid #d3dbe6;
+}
+.table_box td{
+	width: 300px;
+	border-bottom: 1px solid #d3dbe6;
+}
+.table_box .table_list input{
+	width: 80%;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #d3dbe6;
+	color: #377af2;
+	text-align: center;
+}
+.remarks_box{
+	width: 100%;
+	margin: 10px 0 30px 0;
+	font-size: 12px;
+	text-align: left;
+}
+.remarks_box td{
+	text-align: left;
+	border: 0;
+}
+.preview{
+	background: #f5f5f5;
+	font-size: 22px;
+	line-height: 80px;
+	color: #475669;
+}
+.add_text{
+	margin-top: 30px;
+}
+
+.table_box select{
+	border-radius: 0px;
+	box-shadow: none;
+}
+.table_box .lsh_input{
+	display: inline;
+	width: 100px;
+	border: 1px solid #CCCCCC;
+	border-radius: 0px;
+	
+}
+.table_box .lsh_td{
+	text-align: left;
+	padding-left: 2.5%;
+}
+.table_box .lsh_td label{
+	display: block;
+	width: 165px;
+	text-align: left;
+	float: left;
+}
+.table_box label#label_nian{
+	padding-top: 8px;
+	width: 100px;
+	cursor: pointer;
+}
+.table_box .len_box{
+	text-align: left;
+	padding-left: 2.5%;
+}
+.table_box .len_box .span_box{
+	margin-right: 10px;
+}
+.table_box .len_box .show_span{
+	color: red;
+	padding: 0px 10px;
+}
+.table_box .len_box .span_input{
+	display: inline;
+	background-color: #FFFFFF;
+	width: 40px;
+	border: 1px solid #CCCCCC;
+	border-radius: 0px;
+	box-shadow: none;
+	text-align: center;
+}

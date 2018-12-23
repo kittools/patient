@@ -1,0 +1,236 @@
+.text_box{
+	width: 95%;
+	height: auto;
+	border: 2px solid #f1f8fe;
+	margin: 0 auto;
+	padding-bottom: 175px;
+	background: url(../images/zxks_bg.gif) no-repeat bottom;
+	background-size: 100%;
+}
+.text_box .topic_list{
+	width: 100%;
+	height: 48px;
+    background: #edf7fe;	
+}
+.text_box .topic_list .serial_number_box{
+	width: 70%;
+	float: left;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul{
+	height: 25px;
+	margin-top: 10px;
+	padding: 0;
+	position: relative;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul:before{
+	display: block;
+	position: absolute;
+	content: "";
+	top: 12.5px;
+	left: 5%;
+	right: 5%;
+	z-index: 0;
+	border-bottom: 1px solid #B8C2D3;
+	height: 1px;
+	background-color: #000000;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul li{
+	float: left;
+	height: 100%;
+	list-style: none;
+	background-color: transparent;
+	position: relative;
+	z-index: 99;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul li .serial_number{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 19px;
+    color: #B8C2D3;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: #ffffff;
+    border:1px solid #B8C2D3;
+    margin: 0 auto;
+    margin-top: 2.5px;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul li.active .serial_number{
+	border:-1px solid #F4ECB4;
+	background-color: #FFCD1A;
+	color: #FFFFFF;
+}
+.text_box .topic_list .serial_number_box .serial_number_ul li.old_active .serial_number{
+	border:1px solid #397AEE;
+	color: #397AEE;
+	background-color: #FFFFFF;
+}
+.text_box .topic_list .count_down{
+	width: 30%;
+	height: 25px;
+	background: #fff;
+	border-radius: 30px;
+	color: #377af2;
+	text-align: center;
+	line-height: 25px;
+	float:right ;
+	/*margin-right: 20px;*/
+	margin-top: 10px;
+}
+.text_box .topic_type{
+	width: 100%;
+	height: 48px;
+	border-top: 1px solid #edf7fe;
+	border-bottom: 1px solid #edf7fe;
+}
+.text_box .topic_type img{
+	width: 22px;
+	height: 22px;
+	margin: 10px 0 10px 30px;
+	float: left;
+}
+.topic_type .dxt{
+	float: left;
+	line-height:48px;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: #495872;
+}
+.topic_type .difficulty{
+	float: left;
+	line-height: 48px;
+	color: #ccd4de;
+}
+.text_box .subject{
+	width: 100%;
+	text-align: center;
+	/*line-height: 90px;*/
+	font-size: 16px;
+	padding: 35px 0px;
+}
+.text_box form{
+	display: block;
+	width: 100%;
+}
+.text_box .div_box{
+	width: 70%;
+	
+	border: 1px solid #CCCCCC;
+	padding-left: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.text_box .div_box input{
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin-top: 14px;
+}
+.text_box .div_box label{
+	display: block;
+	margin-left: 20px;
+	cursor: pointer;
+	padding: 10px 0px;
+}
+.bg-hui{
+	background-color: #F3F9FE;
+}
+.text_box form .submit_box .xyt{
+	float: none;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	border-radius: 30px;
+}
+.text_box form .submit_box{
+	text-align: center;
+	margin-top: 30px;
+	position: relative;
+}
+.text_box form .submit_box .step{
+	position: absolute;
+	padding: 1px 20px;
+	left: 5%;
+	top: 0px;
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+/*考试完成*/
+.biaoti{
+	width: 100%;
+	margin: 80px 0px 0px 0px;
+	text-align: center;
+	position: relative;
+}
+.biaoti:after{
+    display: block;
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    border-bottom: 1px solid #F2F9FE;
+    height: 1px;
+    background-color: #F2F9FE;
+}
+.biaoti > span{
+	background-color: #EFF8FE;
+	position: relative;
+	z-index: 99;
+}
+.fraction{
+	padding: 20px 0px;
+	text-align: center;
+}
+.fraction > span{
+	font-size: 50px;
+	font-weight: bold;
+	color: #FFCD1A;
+}
+.correct_rate{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.correct_rate > span{
+	color:#8B9AB4;
+}
+.correct_rate > span > a{
+	color: #3778EE;
+	padding: 0px 3px;
+	text-decoration: underline !important;
+}
+.submit_box .zkyc_box {
+	position: relative;
+	width: 185px;
+	margin: 0 auto;
+}
+.submit_box .zkyc_box .zkyc{
+	position: absolute;
+	right: 120%;
+	top: 14px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 2em;
+	border: 1px solid #397AEE;
+	color: #397AEE;
+	padding: 0 20px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+.finish{
+	float: none;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}

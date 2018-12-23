@@ -1,0 +1,27 @@
+.wrapper{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	padding: 20px 0px;
+}
+.wrapper .news_box{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.wrapper .news_box .news_time{
+	margin-top: 15px;
+}
+.wrapper .news_box .news_h3{
+	font-size: 25px;
+	color: #333333;
+}
+.wrapper .news_box .img_news{
+	width: 450px;
+	max-height: 500;
+	margin: 50px 0px;
+}
+.wrapper .content_news{
+	width: 80%;
+	margin: 0 auto;
+}

@@ -1,0 +1,80 @@
+.tips_box{
+	width: 20%;
+	height: 340px;
+	border: 1px solid #d7dee8;
+	border-radius: 5px;
+	float: left;
+	margin:0 30px 0 50px;
+	padding: 25px 25px 0 15px;
+}
+.tips_box .tips_text{
+	text-indent: 2em;
+	margin-top: 15px;
+	color: #8392a5;
+	line-height: 24px;
+}
+.add_text{
+	margin-right: 7%;
+}
+.big_title{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.table_pass th{
+	width: 187px;
+	text-align: center;
+	background: #f1f8fe;
+	vertical-align:middle;
+	border: 1px solid #d3dbe6;
+}
+.table_pass td{
+	background: #fff;
+}
+.table_pass .add{
+	width: 80px;
+	height: 20px;
+	border: 1px solid #377af2;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #377AF2;
+	float: left;
+	margin: 50px 20px 0 10px;
+}
+.table_pass .preview{
+	width: 115px;
+	height: 115px;
+	float: left;
+}
+.table_pass label{
+	margin-right: 15%;
+}
+.content_text .text_lable{
+	height: 20px;
+	border: 1px solid #d4dbe6;
+	border-radius: 20px;
+	font-size: 12px;
+	color: #475669;
+	line-height: 18px;
+	float: left;
+	padding-left: 10px;
+	margin-right: 15px;
+}
+
+.content_text img{
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin: 4px 10px 0 10px;
+}
+.content_text input{
+	width: 140px;
+	border: none;
+	border-bottom: 1px solid #d3dbe6;
+	position: relative;
+}
+.content_text .content_img{
+	position: absolute;
+	margin-left: -10px;
+}

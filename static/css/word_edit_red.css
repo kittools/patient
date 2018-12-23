@@ -1,0 +1,75 @@
+.edit_header{
+	width: 100%;
+	
+}
+/*select::-ms-expand{
+	display: none;
+}*/
+.edit_header .word_ul{
+	list-style: none;
+	padding: 0px;
+	background-color: #F5FCFF;
+	box-shadow: 0px 0px 18px -2px inset #CBE5FA;
+}
+.edit_header .word_ul .red_li{
+	width: 100%;
+	padding: 20px;
+}
+.edit_header .word_ul .red_li .red_box{
+	width: 800px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+	color: #4C7FE8;
+	font-size: 14px;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele{
+	width: 50%;
+	height: 100%;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_mc{
+	width: 20%;
+	text-align: right;
+	padding-right: 15px;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_sele{
+	width: 80%;
+	border: 1px solid #CCCCCC;
+	border-radius: 2em;
+	height: 100%;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_sele form {
+	display: block;
+	height: 100%;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_sele .select_box{
+	width: 80%;
+	height: 100%;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_sele .select_box select.input{
+	width: 100%;
+	height: 27px;
+	display: block;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 15px;
+	line-height: 30px;
+	box-shadow: none;
+}
+.edit_header .word_ul .red_li .red_box .red_box_sele .name_sele .select_box_btn{
+	width: 20%;
+	height: 100%;
+	background-color: #4C7FE8;
+	color: #FFFFFF;
+	border-radius: 2em;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	line-height: 33px;
+}
