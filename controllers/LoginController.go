@@ -35,7 +35,7 @@ func (this *LoginController) Post() {
 	} else if err == orm.ErrMissPK {
 		this.Ctx.WriteString("找不到主键")
 	} else {
-
+		this.TplName = "index.html"
 	}
 	//this.TplName = "login/login.html"
 }
