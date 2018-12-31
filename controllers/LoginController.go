@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
@@ -24,18 +23,19 @@ func (this *LoginController) Get() {
 
 func (this *LoginController) Post() {
 	u := models.User{}
+
 	//获取用户名和密码
 	if err := this.ParseForm(&u); err != nil {
-		fmt.Println("用户名或密码不能为空")
+		this.Ctx.WriteString("用户名或密码不能为空")
 	}
+
 	o := orm.NewOrm()
-	err := o.Read(&u)
+	err := o.Read(&u, "Username")
 	if err == orm.ErrNoRows {
 		this.Ctx.WriteString("查询不到")
 	} else if err == orm.ErrMissPK {
 		this.Ctx.WriteString("找不到主键")
 	} else {
-		this.TplName = "index.html"
+		this.Redirect("/", 200)
 	}
-	//this.TplName = "login/login.html"
 }
