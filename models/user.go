@@ -1,15 +1,19 @@
 package models
 
-import "github.com/astaxie/beego/orm"
+import (
+	"github.com/jinzhu/gorm"
+)
 
 type User struct {
-	Id        int
-	Username  string
-	Password  string
-	Create_at orm.DateField
-	Update_at orm.DateField
+	gorm.Model
+	Username string
+	Password string
+	Hash     string
+	Role     int
+	Mobile   string
+	Email    string
 }
 
-func init() {
-	orm.RegisterModel(new(User))
+func QueryUser(email, password string) (user User, err error) {
+	return user, db.Model(&User{}).Where("email = ? and Password = ?", email, password).Take(&user).Error
 }
