@@ -6,6 +6,6 @@ type CommonController struct {
 	beego.Controller
 }
 
-func (this *CommonController) Get() {
-	this.TplName = "common/link.html"
+func (c *CommonController) Get() {
+	c.TplName = "common/link.html"
 }

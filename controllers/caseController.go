@@ -6,6 +6,6 @@ type CaseController struct {
 	beego.Controller
 }
 
-func (this *CaseController) Get() {
-	this.TplName = "case/case.html"
+func (c *CaseController) Get() {
+	c.TplName = "case/case.html"
 }

@@ -6,6 +6,6 @@ type IndexController struct {
 	beego.Controller
 }
 
-func (this *IndexController) Get() {
-	this.TplName = "index.html"
+func (c *IndexController) Get() {
+	c.TplName = "index.html"
 }

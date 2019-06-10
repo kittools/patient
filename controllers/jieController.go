@@ -6,6 +6,6 @@ type JieController struct {
 	beego.Controller
 }
 
-func (this *JieController) Get() {
-	this.TplName = "jie/index.html"
+func (c *JieController) Get() {
+	c.TplName = "jie/index.html"
 }
